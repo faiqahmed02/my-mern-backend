@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello, MERN!');
+  res.send('Hello, MERN!')
 });
 
 app.listen(port, () => {
